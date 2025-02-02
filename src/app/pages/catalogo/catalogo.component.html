@@ -1,0 +1,12 @@
+<!-- src/app/pages/catalogo/catalogo.component.html -->
+<div class="catalogo-container">
+    <div class="producto-card" *ngFor="let item of productos">
+      <img [src]="item.imagen" alt="{{item.nombre}}" />
+      <h3>{{ item.nombre }}</h3>
+      <p>Precio: {{ item.precio | currency }}</p>
+      <button [routerLink]="['/detalles-producto', item.id]">
+        Ver detalles
+      </button>
+    </div>
+  </div>
+  
