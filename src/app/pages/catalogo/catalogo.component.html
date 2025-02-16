@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- src/app/pages/catalogo/catalogo.component.html -->
 <div class="catalogo-container">
     <div class="producto-card" *ngFor="let item of productos">
@@ -10,3 +11,20 @@
     </div>
   </div>
   
+=======
+<section class="catalogo-container">
+  <h2>Descubre nuestra colección</h2>
+  <div class="products-grid">
+    <!-- Iteramos 20 productos con *ngFor en Angular -->
+    <div class="product-item" *ngFor="let producto of productos">
+      <a [routerLink]="['/producto', producto.id]" class="product-link">
+        <div class="product-image">
+          <img [src]="producto.imagen" [alt]="producto.nombre">
+        </div>
+        <h3>{{ producto.nombre }}</h3>
+        <p class="price">{{ producto.precio }}€</p>
+      </a>
+    </div>
+  </div>
+</section>
+>>>>>>> 872004a (actualizacion con compodoc)
