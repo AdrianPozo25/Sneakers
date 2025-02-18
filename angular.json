@@ -3,11 +3,6 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-<<<<<<< HEAD
-    "sneakers-app": {
-      "projectType": "application",
-      "schematics": {},
-=======
     "Sneakers": {
       "projectType": "application",
       "schematics": {
@@ -21,7 +16,6 @@
           "standalone": false
         }
       },
->>>>>>> 872004a (actualizacion con compodoc)
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -29,11 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-<<<<<<< HEAD
-            "outputPath": "dist/sneakers-app",
-=======
             "outputPath": "dist/sneakers",
->>>>>>> 872004a (actualizacion con compodoc)
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -84,17 +74,12 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-<<<<<<< HEAD
-              "buildTarget": "sneakers-app:build:production"
             },
             "development": {
-              "buildTarget": "sneakers-app:build:development"
-=======
               "buildTarget": "Sneakers:build:production"
             },
             "development": {
               "buildTarget": "Sneakers:build:development"
->>>>>>> 872004a (actualizacion con compodoc)
             }
           },
           "defaultConfiguration": "development"
@@ -124,11 +109,8 @@
         }
       }
     }
-<<<<<<< HEAD
-=======
   },
   "cli": {
     "analytics": "22e6c368-84e5-4e80-b61d-d5276cd670d6"
->>>>>>> 872004a (actualizacion con compodoc)
   }
 }

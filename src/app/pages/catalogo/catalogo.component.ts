@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // src/app/pages/catalogo/catalogo.component.ts
 import { Component, OnInit } from '@angular/core';
 import { ProductoService } from 'src/app/services/producto.service';
@@ -22,7 +22,7 @@ export class CatalogoComponent implements OnInit {
     });
   }
 
-=======
+
 import { Component } from '@angular/core';
 
 @Component({
@@ -55,5 +55,4 @@ export class CatalogoComponent {
     { id: 19, nombre: 'New Balance 990 V5', precio: 199.99, imagen: 'image/nb990.avif' },
     { id: 20, nombre: 'Rick Owens Jumbo', precio: 999.99, imagen: 'image/ro.jpg' }
   ];
->>>>>>> 872004a (actualizacion con compodoc)
 }

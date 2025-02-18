@@ -1,11 +1,6 @@
-<<<<<<< HEAD
 // src/app/app-routing.module.ts
 import { NgModule } from '@angular/core';
-import { RouterModule } from '@angular/router';
-import { routes } from './app.routes';
-=======
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { RouterModule, Routes} from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { CatalogoComponent } from './pages/catalogo/catalogo.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
@@ -20,14 +15,9 @@ const routes: Routes = [
   { path: 'producto/:id', component: DetallesProductoComponent }, // Ruta dinámica para cada producto
   { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
->>>>>>> 872004a (actualizacion con compodoc)
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-<<<<<<< HEAD
 export class AppRoutingModule {}
-=======
-export class AppRoutingModule { }
->>>>>>> 872004a (actualizacion con compodoc)
